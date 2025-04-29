@@ -6,9 +6,13 @@ This is a very, very small scale Lab aimed at recreating an enterprise network
 
 
 
-## Tools 
+## Necessities~ 
 - VirtualBox (VMWare packages were out of date at the time)
+- A Windows Desktop ISO, 10 is used for this; found [HERE](https://www.microsoft.com/en-us/software-download/windows10ISO)
+- A Windows Server 2016 and up, found [HERE](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2016)
 - Google
+
+
 
 ## Setting Up
 
@@ -26,8 +30,5 @@ reboot
 pacman -Syy virtualbox virtualbox-host-modules-arch
 ```
 And it magically works.
-
-
-2. Grabbing ISOs
 
 
