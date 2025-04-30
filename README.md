@@ -5,12 +5,12 @@ can then be emulated by the average Steam User; sadly, not immediately grandmoth
 
 # Necessities~ 
 - VirtualBox *(VMWare packages were out of date at the time)*
-- A Windows Desktop ISO, 10; found [HERE](https://www.microsoft.com/en-us/software-download/windows10ISO)
-[Windows 10 iso site as of 2025-04-29](daImages/windowsISOsite.png)
-- A Windows Server 2016 & up; found [HERE](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2016)
+- A Windows Desktop ISO, 10; found [here](https://www.microsoft.com/en-us/software-download/windows10ISO)
+![Windows 10 iso site as of 2025-04-29](daImages/windowsISOsite.png)
+- A Windows Server 2016 & up; found [here](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2016)
 ![Windows Server 2016 iso site as of 2025-04-29](daImages/windows2016serversite.png)
 - Google; found [HERE](https://www.google.com)
-[Google](daImages/google.png)
+![Google](./daImages/pics-worldwideweb/google.png)
 
 ## Installing VirtualBox
 
@@ -38,7 +38,7 @@ This should be a *relatively* equivalent process; unless you want to be fancy.
 ### **Intro: Scary Buttons**
 
 Don't panic!!!! Just click the button that looks like a **BLUE ASTERISK**, kind of; it says **'New'** under it. For now, only worry about that button, as the other buttons aren't relevant yet.
-![The button in question](daImages/scary buttons.png)
+![The buttons in question](./daImages/pics-virtbox/scary-buttons.png)
 
 
 ### **Name and Operating System**
