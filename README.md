@@ -28,8 +28,6 @@ reboot
 pacman -Syy virtualbox virtualbox-host-modules-arch
 ```
 
-
-
 ## Creating the Virtual Machines (VM)
 
 This should be a *relatively* equivalent process; unless you want to be fancy.
@@ -45,10 +43,17 @@ Don't panic!!!! Just click the button that looks like a **BLUE ASTERISK**, kind 
 1. **Name** both of the VMs after your favorite snack
 2. **Folder** can remain as is, unless you want it somewhere else of course.
 3. **ISO Image** is the '/path/to/your/iso'; Likely in your Downloads folder; should also fill in settings below, meaning Edition is the *big* one to worry about.
-4. **Edition** *really* only matters for the Windows Server (sort of), making you decide, at least for 2016, two things: Whether you want a purely command-line
-server or Desktop 'Experience'; and whether you want a *Standard* Edition or *Datacenter* Edition of the server. The differences between the two is 'minimal',
-**this small lab takes place on Datacenter Edition (Desktop Experience)**. Differences between *Standard*, *Datacenter*, and *Datacenter: Azure Edition* can be found [HERE](https://learn.microsoft.com/en-us/windows-server/get-started/editions-comparison?pivots=windows-server-2025).
-As for the *sort of* from the beginning of this part (4), the Windows 10 Edition that **SHOULD** be chosen is either **Pro** or **Enterprise**; as these are the editions that allow joining of Domains, among other things. More information on this can be found [HERE](https://answers.microsoft.com/en-us/insider/forum/all/what-are-the-editions-of-windows-10-available/195a4038-c061-4902-bc2b-35922c9d41bc).
+4. **Edition** *really* only matters for the Windows Server (sort of), making you decide, at least for 2016, 
+  4.1. two things:
+    I.  Whether you want a purely Ccommand-line server or Desktop 'Experience';
+    II. and whether you want a *Standard* Edition or *Datacenter* Edition of the server.
+  4.2. The differences between the two is 'minimal', **this small lab takes place on Datacenter Edition (Desktop Experience)**.
+  
+  4.3. Differences between *Standard*, *Datacenter*, and *Datacenter: Azure Edition* can be found [HERE](https://learn.microsoft.com/en-us/windows-server/get-started/editions-comparison?pivots=windows-server-2025).
+  4.4. As for the *sort of* from the beginning of this part (4), the Windows 10 Edition that **SHOULD** be chosen is either: 
+    I.  **Pro** or;
+    II. **Enterprise**.
+  As these are the editions that allow joining of Domains, among other things. More information on this can be found [HERE](https://answers.microsoft.com/en-us/insider/forum/all/what-are-the-editions-of-windows-10-available/195a4038-c061-4902-bc2b-35922c9d41bc).
 5. **Subtype** is the *flavour* of the primary operating system, so to speak; not relevant here.
 6. **Version** SHOULD have auto-filled to the corresponding OS, if not, match it to the Windows 10 or Windows Server (year) 64-bit.
 7. **Skip unattended install**, *shouldn't* hurt much in this process.
@@ -114,7 +119,7 @@ You'll now see a bit of text:
 No use trying to find a Windows key, not in the bright year of 2025.
 ![Stage 4](./daImages/pics-windows10/activatewindows-four.png)
 
-
+./daImages/
 
 
 
